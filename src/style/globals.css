@@ -125,7 +125,7 @@ body {
 .hello-text{
   display: inline-flex;
   gap: 6px; 
-  font-size: 72px;
+  font-size: 80px;
   font-weight: 700;
   line-height: 1;
 } 
@@ -274,5 +274,39 @@ body {
   }
   100% {
     background-position: 900px 50%;
+  }
+} */
+
+/* .card {
+  top: 100px;
+}
+
+.card:nth-child(2){
+  top: 120px;
+}
+
+.card:nth-child(2){
+  top: 140px;
+} */
+
+/* ::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-track{
+  background: rgb(172, 183, 255);
+} 
+
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(to top, red,orange,yellow,green,blue,indigo,violet);
+  background-size: 400% 400%;
+}
+
+@keyframes scrollAnim {
+  0%, 100% {
+    filter: hue-rotate(0deg);
+  } 
+  50% {
+    filter: hue-rotate(360deg);
   }
 } */

@@ -4,29 +4,50 @@ import Link from 'next/link'
 
 const Header = () => {
   return (
-    <header className='bg-neutral-300/30 backdrop-blur-xs border-3 border-neutral-300/30 hover:bg-neutral-300/30 rounded-full flex justify-between items-center py-2 px-4 fixed top-20 z-40 w-[320px] sm:w-155 lg:w-300 mx-24'> 
-      <Link href="/" className='font-bold text-2xl text-blue-900 inline'> 
-       YU YU 
-      </Link>
-      <nav className=' flex px-4 items-center justify-between py-4'>
-        <Link href="/" className='text-xl font-semibold w-full text-sepia-black-950 dark:text-sepia-black-100'>
-          Projects
-        </Link> 
-        <button className='text-xl font-semibold w-full text-sepia-black-950 dark:text-sepia-black-100'>
-          About Me
-        </button> 
-        <button className='text-xl font-semibold w-full text-sepia-black-950 dark:text-sepia-black-100'>
-          My Skills
-        </button>
+    <header
+      className="fixed top-20 left-1/2 -translate-x-1/2 z-40 w-[320px] sm:w-[520px] lg:w-[720px] rounded-full bg-neutral-200/30 dark:bg-white/10 hover:bg-neutral-200/40 dark:hover:bg-white/15 backdrop-blur-md border border-white/30 dark:border-white/20 shadow-lg dark:shadow-[0_8px_30px_rgba(0,0,0,0.35)]">
+
+      <div className="flex items-center justify-between px-6 py-3">
         
-        <Link href="#" className='text-xl font-semibold w-full text-sepia-black-950 dark:text-sepia-black-100 inline'>
-          Contact
+        {/* Logo */}
+        <Link
+          href="/"
+          className="font-bold text-2xl tracking-tight text-blue-900 dark:text-blue-300 whitespace-nowrap"
+        >
+          YU&nbsp;YU
         </Link>
-        <div className='w-full flex flex-col items-center justify-between text-sepia-black-950 dark:text-sepia-black-100'>
-          <ThemeButton/>
-        </div>
-      </nav>
+
+        {/* Navigation */}
+        <nav className="flex items-center gap-6">
+          <Link
+            href="#about-me"
+            className="text-base font-medium text-sepia-black-950 dark:text-sepia-black-100 hover:opacity-80 transition"
+          >
+            About
+          </Link>
+
+          <Link
+            href="#projects"
+            className="text-base font-medium text-sepia-black-950 dark:text-sepia-black-100 hover:opacity-80 transition"
+          >
+            Projects
+          </Link>
+
+          <Link
+            href="#contact"
+            className="text-base font-medium text-sepia-black-950 dark:text-sepia-black-100 hover:opacity-80 transition"
+          >
+            Contact
+          </Link>
+
+          {/* Theme toggle */}
+          <div className="ml-2 flex items-center">
+            <ThemeButton />
+          </div>
+        </nav>
+      </div>
     </header>
+
   )
 }
 

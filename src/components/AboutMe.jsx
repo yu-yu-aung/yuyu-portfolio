@@ -1,31 +1,166 @@
-import React from 'react';
+import { Code2Icon } from "lucide-react";
+import React from "react";
 
 const AboutMe = () => {
-  return (
-    <section className="max-w-4xl mx-24 py-12 text-stone-900 dark:text-stone-200">
-      <h2 className="text-4xl font-bold mb-6">About Me</h2>
-      <p className="text-lg mb-4">
-        I'm Yu Yu Aung, a Frontend Engineer based in Myanmar with a passion for building clean, user-centered web interfaces. I combine modern frontend technologies with a strong foundation in UI/UX design to create accessible and responsive applications.
-      </p>
-      <p className="text-lg mb-6">
-        Originally from a small town in Upper Myanmar, I enjoy bridging technology and design to solve real-world problems.
-      </p>
+  const techList = [
+  { id: 1, name: "HTML5" },
+  { id: 2, name: "CSS3" },
+  { id: 3, name: "JavaScript" },
+  { id: 4, name: "React" },
+  { id: 5, name: "Next.js" },
+  { id: 6, name: "Tailwind CSS" },
+  { id: 7, name: "Git & GitHub" },
+  { id: 8, name: "Figma" },
+];
 
-      <h3 className="text-2xl font-semibold mb-3">Education</h3>
-      <ul className="space-y-3 list-disc list-inside">
-        <li>
-          <strong>Associate Degree in Computer Science</strong> — University of the People, USA (Online)  
-          <em>Expected March 2026</em>
-        </li>
-        <li>
-          <strong>B.Sc in Computer Science</strong> — University of the People, USA (Online)  
-          <em>In Progress</em>
-        </li>
-        <li>
-          <strong>B.Tech in Architecture</strong> — Technological University, Thanlyin, Myanmar (2016-2020)
-        </li>
-      </ul>
+const languageList = [
+  { id: 1, name: "Burmese", level: "Native" },
+  { id: 2, name: "English", level: "Professional working proficiency" },
+  { id: 3, name: "Chinese", level: "Conversational" },
+];
+
+const softSkillList = [
+  { id: 1, name: "Problem Solving" },
+  { id: 2, name: "Communication" },
+  { id: 3, name: "Team Collaboration" },
+  { id: 4, name: "Time Management" },
+  { id: 5, name: "Adaptability" },
+  { id: 6, name: "Attention to Detail" },
+]; 
+  return (
+    <section className="w-full max-w-7xl mx-auto px-6 sm:px-10 lg:px-24 py-20 text-stone-900 dark:text-stone-200">
+  
+      {/* Intro */}
+      <div className="mb-20 max-w-4xl">
+        <p className="text-xl sm:text-2xl leading-relaxed font-medium italic opacity-90">
+          I’m <span className="font-semibold">Yu Yu</span>, a Frontend Engineer based in Myanmar with a passion for building clean, user-centered web interfaces. I combine modern frontend technologies with a strong foundation in UI/UX design to create accessible and responsive applications.
+        </p>
+      </div>
+      
+      <div className="grid grid-cols-6 mb-20">
+        <div className="col-span-3 flex p-2 rounded-lg border bg-orange-100/30 dark:bg-orange-900/20 border-orange-200/30 dark:border-orange-900/20 shadow-lg dark:shadow-[0_8px_30px_rgba(0,0,0,0.35)] ml-auto">
+          <h2 className="text-2xl font-bold uppercase italic mr-2 [writing-mode:vertical-rl] rotate-180">Tech Stacks</h2>
+          <div className="grid grid-cols-3 gap-2 p-2">
+            {techList?.map((tech) => (
+              <p className="px-4 py-2 text-sm font-medium bg-orange-200 dark:bg-orange-900 border border-stone-200/60 dark:border-stone-700/60 text-start" key={tech.id}>{tech.name}</p>
+            ))}
+
+          </div>
+        </div>
+        <div className="col-span-3">
+        </div>
+        <div className="col-span-3">
+        </div>
+        <div className="col-span-3 flex p-2 rounded-lg border bg-orange-100/30 dark:bg-orange-900/20 border-orange-200/30 dark:border-orange-900/20 shadow-lg dark:shadow-[0_8px_30px_rgba(0,0,0,0.35) mr-auto">
+          <h2 className="text-2xl font-bold uppercase italic mr-2 [writing-mode:vertical-rl] rotate-180">Languages</h2>
+          <div className="grid grid-cols-1 gap-2 p-2 ">
+            {languageList?.map((lan) => (
+              <p className="px-4 py-2 text-sm font-medium bg-orange-200 dark:bg-orange-900 border border-stone-200/60 dark:border-stone-700/60 text-start" key={lan.id}>{lan.name} <span className="italic font-normal">({lan.level})</span></p>
+            ))}
+
+          </div>
+        </div>
+        <div className="col-span-3 flex p-2 rounded-lg border bg-orange-100/30 dark:bg-orange-900/20 border-orange-200/30 dark:border-orange-900/20 shadow-lg dark:shadow-[0_8px_30px_rgba(0,0,0,0.35) ml-auto">
+          <h2 className="text-2xl font-bold uppercase italic mr-2 [writing-mode:vertical-rl] rotate-180">Softskills</h2>
+          <div className="grid grid-cols-2 gap-2 p-2 ">
+            {softSkillList?.map((soft) => (
+              <p className="px-4 py-2 text-sm font-medium bg-orange-200 dark:bg-orange-900 border border-stone-200/60 dark:border-stone-700/60 text-start" key={soft.id}>{soft.name}</p>
+            ))}
+
+          </div>
+        </div>
+      </div>
+      
+      {/* Education + Experience */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+        
+        {/* Education */}
+        <div>
+          <h3 className="text-4xl font-bold mb-10 tracking-tight italic">
+            Education
+          </h3>
+
+          <div className="flex flex-col gap-6">
+            {[
+              {
+                title: "Associate Degree in Computer Science",
+                org: "University of the People, USA (Online)",
+                date: "Expected March 2026",
+              },
+              {
+                title: "B.Sc in Computer Science",
+                org: "University of the People, USA (Online)",
+                date: "In Progress",
+              },
+              {
+                title: "B.Tech in Architecture",
+                org: "Technological University, Thanlyin, Myanmar",
+                date: "2016 – 2020",
+              },
+            ].map((item, i) => (
+              <div
+                key={i}
+                className=" rounded-2xl border border-stone-200/60 dark:border-stone-700/60 bg-blue-100/60 dark:bg-blue-900/40 backdrop-blur-md p-6 shadow-sm transition-all hover:shadow-md"
+              >
+                <h4 className="text-xl font-semibold mb-1">
+                  {item.title}
+                </h4>
+                <p className="text-stone-700 dark:text-stone-400">
+                  {item.org}
+                </p>
+                <p className="mt-2 text-sm text-stone-500 dark:text-stone-500">
+                  {item.date}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Experience */}
+        <div>
+          <h3 className="text-4xl font-bold mb-10 tracking-tight italic">
+            Experience
+          </h3>
+
+          <div className="flex flex-col gap-6">
+            {[
+              {
+                title: "Frontend Developer",
+                org: "MMS IT Software Solutions — Internship (Online)",
+                date: "July 2025 – Present",
+              },
+              {
+                title: "Volunteer UI/UX Designer",
+                org: "Brain Builders' Organization (Online)",
+                date: "Feb 2025 – Aug 2025",
+              },
+              {
+                title: "Assistant Supervisor cum Chinese Translator",
+                org: "Lightion Myanmar Co. Ltd.",
+                date: "Aug 2023 – May 2025",
+              },
+            ].map((item, i) => (
+              <div
+                key={i}
+                className="rounded-2xl border border-stone-200/60 dark:border-stone-700/60 bg-blue-100/60 dark:bg-blue-900/40 backdrop-blur-md p-6 shadow-sm transition-all hover:shadow-md"
+              >
+                <h4 className="text-xl font-semibold mb-1">
+                  {item.title}
+                </h4>
+                <p className="text-stone-700 dark:text-stone-400">
+                  {item.org}
+                </p>
+                <p className="mt-2 text-sm text-stone-500 dark:text-stone-500">
+                  {item.date}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+      </div>
     </section>
+
   );
 };
 
