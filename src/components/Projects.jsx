@@ -9,7 +9,7 @@ const Projects = () => {
   const router = useRouter(); 
 
   return (
-    <section className='text-stone-900 flex flex-col px-4 sm:px-10 py-12 sm:py-18 lg:py-24' id="projects">
+    <section className='text-stone-900 flex flex-col px-4 sm:px-10 lg:px-24 py-8 sm:py-10 lg:py-12' id="projects">
       <div className='flex flex-col items-center justify-around mt-8 sm:mt-14 mb-4'>
         <h2 className='text-4xl sm:text-5xl lg:text-6xl font-bold text-stone-700 dark:text-stone-300 mb-4'>My Projects</h2> 
         <hr className="text-blue-900 dark:to-blue-200 w-xs sm:w-lg lg:w-3xl border mt-2" />

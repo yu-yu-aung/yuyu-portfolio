@@ -5,7 +5,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <section className="text-center py-12 text-stone-900 dark:text-stone-200" id='contact'>
+    <section className="text-center py-10 text-stone-900 dark:text-stone-200" id='contact'>
       <h3 className="text-2xl sm:text-4xl font-bold mb-4">Contact Me</h3>
       <p className="mb-4 text-sm sm:text-base">Feel free to reach out via email or connect on LinkedIn.</p>
       <div className="flex justify-center gap-4 px-4">
