@@ -133,6 +133,13 @@ body {
   line-height: 1;
 } 
 
+@media only screen and (max-width: 600px) {
+  .hello-text{
+    gap:4px; 
+    font-size: 50px;
+  }
+}
+
 .hello-text span{
   display: inline-block;
   animation: pulseScale 1200ms ease-in-out 1 forwards, flicker 3s infinite;

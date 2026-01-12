@@ -8,14 +8,12 @@ import Recommendation from "@/components/Recommendation";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-stone-100 dark:bg-stone-900 w-full  py-14">
+    <div className="min-h-screen bg-stone-100 dark:bg-stone-900 w-full py-8 sm:py-14">
       <Header /> 
       <HeroSection/>
-      <h2 className="w-full py-12 bg-blue-400 dark:bg-blue-900 text-6xl font-bold text-stone-700 dark:text-stone-300 text-lb-frame px-24" id="about-me">About Me</h2>
+      <h2 className="w-full py-8 sm:py-10 lg:py-12 bg-blue-400 dark:bg-blue-900 text-4xl sm:text-5xl lg:text-6xl font-bold text-stone-700 dark:text-stone-300 text-lb-frame px-4 sm:px-10 lg:px-24" id="about-me">About Me</h2>
       <AboutMe />
-      <div id="projects">
-        <Projects/>
-      </div>
+      <Projects/>
       <Recommendation/>
       <Contact/>
       <Footer/>

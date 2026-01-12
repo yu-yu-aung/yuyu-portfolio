@@ -22,7 +22,7 @@ const ThemeButton = () => {
       onClick={() => {
         setTheme(theme === "light" ? "dark" : "light")}}
     >
-      {theme === "light" ? <Moon className="size-6 focus:outline-none" /> : <Sun className="size-6 focus:outline-none" />}
+      {theme === "light" ? <Moon className="size-4 sm:size-6 focus:outline-none" /> : <Sun className="size-4 sm:size-6 focus:outline-none" />}
     </button>
   )
 }
