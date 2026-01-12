@@ -8,7 +8,7 @@ const HeroSection = () => {
   const text = "HELLO!";
 
   return (
-    <section className="relative w-full max-w-7xl mx-auto px-6 sm:px-10 py-24">
+    <section className="relative w-full max-w-7xl mx-auto px-6 sm:px-10 py-24" id="home">
       <div className="grid grid-cols-1 lg:grid-cols-7 gap-16 items-center">
         
         {/* LEFT */}

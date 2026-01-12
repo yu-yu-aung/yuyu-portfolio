@@ -9,8 +9,9 @@ const AboutMe = () => {
   { id: 4, name: "React" },
   { id: 5, name: "Next.js" },
   { id: 6, name: "Tailwind CSS" },
-  { id: 7, name: "Git & GitHub" },
-  { id: 8, name: "Figma" },
+  { id: 7, name: "TypeScript" },
+  { id: 8, name: "Git & GitHub" },
+  { id: 9, name: "Figma" },
 ];
 
 const languageList = [
@@ -31,18 +32,23 @@ const softSkillList = [
     <section className="w-full max-w-7xl mx-auto px-6 sm:px-10 lg:px-24 py-20 text-stone-900 dark:text-stone-200">
   
       {/* Intro */}
-      <div className="mb-20 max-w-4xl">
-        <p className="text-xl sm:text-2xl leading-relaxed font-medium italic opacity-90">
+      <div className="mb-10 max-w-4xl flex flex-col items-center">
+        <p className="text-xl sm:text-2xl leading-relaxed font-medium italic opacity-90 mb-10">
           I’m <span className="font-semibold">Yu Yu</span>, a Frontend Engineer based in Myanmar with a passion for building clean, user-centered web interfaces. I combine modern frontend technologies with a strong foundation in UI/UX design to create accessible and responsive applications.
         </p>
+        <hr className="text-blue-900 dark:to-blue-200 w-xs sm:w-lg lg:w-3xl border mt-2" />
       </div>
       
-      <div className="grid grid-cols-6 mb-20">
-        <div className="col-span-3 flex p-2 rounded-lg border bg-orange-100/30 dark:bg-orange-900/20 border-orange-200/30 dark:border-orange-900/20 shadow-lg dark:shadow-[0_8px_30px_rgba(0,0,0,0.35)] ml-auto">
+      {/* Skill Sets */}
+      <div className="grid grid-cols-6 image-rb-frame px-10 py-14">
+        <h3 className="text-4xl font-bold mb-10 tracking-tight italic col-span-full">
+            Skills
+          </h3>
+        <div className="col-span-3 flex p-2 rounded-lg border bg-blue-100/30 dark:bg-blue-900/20 border-blue-200/30 dark:border-blue-900/20 shadow-lg dark:shadow-[0_8px_30px_rgba(0,0,0,0.35)] ml-auto">
           <h2 className="text-2xl font-bold uppercase italic mr-2 [writing-mode:vertical-rl] rotate-180">Tech Stacks</h2>
           <div className="grid grid-cols-3 gap-2 p-2">
             {techList?.map((tech) => (
-              <p className="px-4 py-2 text-sm font-medium bg-orange-200 dark:bg-orange-900 border border-stone-200/60 dark:border-stone-700/60 text-start" key={tech.id}>{tech.name}</p>
+              <p className="px-4 py-2 text-sm font-medium bg-blue-200 dark:bg-blue-900 border border-stone-200/60 dark:border-stone-700/60 text-start" key={tech.id}>{tech.name}</p>
             ))}
 
           </div>
@@ -51,20 +57,20 @@ const softSkillList = [
         </div>
         <div className="col-span-3">
         </div>
-        <div className="col-span-3 flex p-2 rounded-lg border bg-orange-100/30 dark:bg-orange-900/20 border-orange-200/30 dark:border-orange-900/20 shadow-lg dark:shadow-[0_8px_30px_rgba(0,0,0,0.35) mr-auto">
+        <div className="col-span-3 flex p-2 rounded-lg border bg-blue-100/30 dark:bg-blue-900/20 border-blue-200/30 dark:border-blue-900/20 shadow-lg dark:shadow-[0_8px_30px_rgba(0,0,0,0.35) mr-auto">
           <h2 className="text-2xl font-bold uppercase italic mr-2 [writing-mode:vertical-rl] rotate-180">Languages</h2>
           <div className="grid grid-cols-1 gap-2 p-2 ">
             {languageList?.map((lan) => (
-              <p className="px-4 py-2 text-sm font-medium bg-orange-200 dark:bg-orange-900 border border-stone-200/60 dark:border-stone-700/60 text-start" key={lan.id}>{lan.name} <span className="italic font-normal">({lan.level})</span></p>
+              <p className="px-4 py-2 text-sm font-medium bg-blue-200 dark:bg-blue-900 border border-stone-200/60 dark:border-stone-700/60 text-start" key={lan.id}>{lan.name} <span className="italic font-normal">({lan.level})</span></p>
             ))}
 
           </div>
         </div>
-        <div className="col-span-3 flex p-2 rounded-lg border bg-orange-100/30 dark:bg-orange-900/20 border-orange-200/30 dark:border-orange-900/20 shadow-lg dark:shadow-[0_8px_30px_rgba(0,0,0,0.35) ml-auto">
+        <div className="col-span-3 flex p-2 rounded-lg border bg-blue-100/30 dark:bg-blue-900/20 border-blue-200/30 dark:border-blue-900/20 shadow-lg dark:shadow-[0_8px_30px_rgba(0,0,0,0.35) ml-auto">
           <h2 className="text-2xl font-bold uppercase italic mr-2 [writing-mode:vertical-rl] rotate-180">Softskills</h2>
           <div className="grid grid-cols-2 gap-2 p-2 ">
             {softSkillList?.map((soft) => (
-              <p className="px-4 py-2 text-sm font-medium bg-orange-200 dark:bg-orange-900 border border-stone-200/60 dark:border-stone-700/60 text-start" key={soft.id}>{soft.name}</p>
+              <p className="px-4 py-2 text-sm font-medium bg-blue-200 dark:bg-blue-900 border border-stone-200/60 dark:border-stone-700/60 text-start" key={soft.id}>{soft.name}</p>
             ))}
 
           </div>
@@ -72,10 +78,10 @@ const softSkillList = [
       </div>
       
       {/* Education + Experience */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 px-10 text-lb-frame py-14">
         
         {/* Education */}
-        <div>
+        <div className="pl-10">
           <h3 className="text-4xl font-bold mb-10 tracking-tight italic">
             Education
           </h3>
@@ -100,7 +106,7 @@ const softSkillList = [
             ].map((item, i) => (
               <div
                 key={i}
-                className=" rounded-2xl border border-stone-200/60 dark:border-stone-700/60 bg-blue-100/60 dark:bg-blue-900/40 backdrop-blur-md p-6 shadow-sm transition-all hover:shadow-md"
+                className=" rounded-2xl border border-stone-200/60 dark:border-stone-700/60 bg-blue-100/60 dark:bg-blue-900/40 backdrop-blur-md p-6 shadow-sm transition-all hover:scale-105"
               >
                 <h4 className="text-xl font-semibold mb-1">
                   {item.title}
@@ -117,7 +123,7 @@ const softSkillList = [
         </div>
 
         {/* Experience */}
-        <div>
+        <div className="pl-10">
           <h3 className="text-4xl font-bold mb-10 tracking-tight italic">
             Experience
           </h3>
@@ -135,14 +141,14 @@ const softSkillList = [
                 date: "Feb 2025 – Aug 2025",
               },
               {
-                title: "Assistant Supervisor cum Chinese Translator",
+                title: "Chinese Translator",
                 org: "Lightion Myanmar Co. Ltd.",
                 date: "Aug 2023 – May 2025",
               },
             ].map((item, i) => (
               <div
                 key={i}
-                className="rounded-2xl border border-stone-200/60 dark:border-stone-700/60 bg-blue-100/60 dark:bg-blue-900/40 backdrop-blur-md p-6 shadow-sm transition-all hover:shadow-md"
+                className="rounded-2xl border border-stone-200/60 dark:border-stone-700/60 bg-blue-100/60 dark:bg-blue-900/40 backdrop-blur-md p-6 shadow-sm transition-all hover:scale-105"
               >
                 <h4 className="text-xl font-semibold mb-1">
                   {item.title}

@@ -1,6 +1,6 @@
 import React from 'react'
 import ThemeButton from './ThemeButton'
-import Link from 'next/link'
+
 
 const Header = () => {
   return (
@@ -10,35 +10,35 @@ const Header = () => {
       <div className="flex items-center justify-between px-6 py-3">
         
         {/* Logo */}
-        <Link
-          href="/"
-          className="font-bold text-2xl tracking-tight text-blue-900 dark:text-blue-300 whitespace-nowrap"
+        <a
+          href="#home"
+          className="font-bold text-lg sm:text-2xl tracking-tight text-blue-900 dark:text-blue-300 whitespace-nowrap"
         >
           YU&nbsp;YU
-        </Link>
+        </a>
 
         {/* Navigation */}
         <nav className="flex items-center gap-6">
-          <Link
+          <a
             href="#about-me"
             className="text-base font-medium text-sepia-black-950 dark:text-sepia-black-100 hover:opacity-80 transition"
           >
             About
-          </Link>
+          </a>
 
-          <Link
+          <a
             href="#projects"
             className="text-base font-medium text-sepia-black-950 dark:text-sepia-black-100 hover:opacity-80 transition"
           >
             Projects
-          </Link>
+          </a>
 
-          <Link
+          <a
             href="#contact"
             className="text-base font-medium text-sepia-black-950 dark:text-sepia-black-100 hover:opacity-80 transition"
           >
             Contact
-          </Link>
+          </a>
 
           {/* Theme toggle */}
           <div className="ml-2 flex items-center">

@@ -10,17 +10,18 @@ const Projects = () => {
 
   return (
     <section className='text-stone-900 flex flex-col px-24'>
-      <div className='flex flex-col items-center justify-around mt-20 mb-4'>
+      <div className='flex flex-col items-center justify-around mt-14 mb-4'>
         <h2 className='text-6xl font-bold text-stone-700 dark:text-stone-300 mb-4'>My Projects</h2> 
         <hr className="text-blue-900 dark:to-blue-200 w-xs sm:w-lg lg:w-3xl border mt-2" />
         <p className='text-lg italic font-medium dark:text-stone-300 mt-1'>
-          I created frontend projects and UI/UX case study to deepen my skills.
+          I build frontend projects and UI/UX case studies to strengthen my problem-solving and product design skills.
         </p>
       </div>
+
       <div className='flex justify-between py-12'>
         
         {/* Eagle's Card */}
-        <div className='w-[400px] bg-orange-100 dark:bg-orange-700 rounded-xl shadow-md '>
+        <div className='w-[400px] bg-orange-100 dark:bg-orange-700 rounded-xl shadow-md flex flex-col'>
           <div className='w-full h-auto flex gap-2 items-center px-4 py-2 bg-orange-600 dark:bg-orange-900 rounded-t-xl text-white'>
             <img src='/eagle.png' className='rounded-full w-[100px] p-3'/>
             <div className='flex flex-col justify-between items-start'>
@@ -29,7 +30,7 @@ const Projects = () => {
             </div> 
           </div>
           <p className='py-4 text-lg font-medium italic px-6 text-stone-800 dark:text-stone-200'>
-            Novio is an online writing platform where users can read, write, and publish original stories across multiple genres. Readers can follow authors, interact through likes and comments, and organize their favorite stories by adding them to a personal library and custom bookshelves, all within a clean, responsive, and user-focused interface.
+            Eagle’s Daily News is a modern news platform that allows users to read, share, and save daily updated articles. It is built with React and Next.js, using Zustand for state management, Flowbite UI for interface components, and React Hot Toast for user feedback. Supabase is used as a BaaS solution for authentication, while the GNews API provides real-time news data.
           </p> 
 
 
@@ -53,7 +54,7 @@ const Projects = () => {
         </div> 
 
         {/* Novio Card */}
-        <div className='w-[400px] bg-purple-200 dark:bg-purple-700 rounded-xl shadow-md '>
+        <div className='w-[400px] bg-purple-200 dark:bg-purple-700 rounded-xl shadow-md flex flex-col'>
           <div className='w-full h-auto flex gap-2 items-center px-4 py-2 bg-purple-600 dark:bg-purple-900 rounded-t-xl text-white'>
             <img src='/novio.png' className='rounded-full w-[100px]'/>
             <div className='flex flex-col justify-between items-start'>
@@ -62,7 +63,7 @@ const Projects = () => {
             </div> 
           </div>
           <p className='py-4 text-lg font-medium italic px-6 text-stone-800 dark:text-stone-200'>
-            Novio is an online writing platform where users can read, write, and publish original stories across multiple genres. Readers can follow authors, interact through likes and comments, and organize their favorite stories by adding them to a personal library and custom bookshelves, all within a clean, responsive, and user-focused interface.
+            Novio is an online writing platform that allows users to write, publish, share own stories, read, like, and comment on others’ work, and follow other users. Users can organize stories into personalized bookshelves and control their visibility. I implemented the backend requirement with 14 Supabase tables and enhanced the user experience with Sonner for user-friendly notifications.
           </p>
 
            <div className="flex justify-between items-center mt-auto text-sm font-medium py-2 px-4 mb-2 text-stone-200 dark:text-stone-800">
@@ -85,7 +86,7 @@ const Projects = () => {
         </div> 
 
         {/* Skillsphere's Card */}
-        <div className='w-[400px] bg-blue-100 dark:bg-blue-700 rounded-xl shadow-md '>
+        <div className='w-[400px] bg-blue-100 dark:bg-blue-700 rounded-xl shadow-md flex flex-col'>
           <div className='w-full h-auto flex gap-2 items-center px-4 py-2 bg-blue-600 dark:bg-blue-900 rounded-t-xl text-white'>
             <img src='/skillsphere.png' className='rounded-full w-[100px] p-3'/>
             <div className='flex flex-col justify-between items-start'>
@@ -94,7 +95,7 @@ const Projects = () => {
             </div> 
           </div>
           <p className='py-4 text-lg font-medium italic px-6 text-stone-800 dark:text-stone-200'>
-            Novio is an online writing platform where users can read, write, and publish original stories across multiple genres. Readers can follow authors, interact through likes and comments, and organize their favorite stories by adding them to a personal library and custom bookshelves, all within a clean, responsive, and user-focused interface.
+            Skillsphere is a UI/UX case study for an online learning app. I conducted UX research, developed user personas, built a design system, and created wireframes and high-fidelity interfaces in Figma. This project strengthened my understanding of design principles and allowed me to approach problems from a designer’s perspective.
           </p> 
 
 
