@@ -1,7 +1,8 @@
-import { Code2Icon } from "lucide-react";
+
 import React from "react";
 
 const AboutMe = () => {
+
   const techList = [
   { id: 1, name: "HTML5" },
   { id: 2, name: "CSS3" },
@@ -32,7 +33,7 @@ const softSkillList = [
     <section className="w-full max-w-7xl mx-auto px-6 sm:px-10 lg:px-24 py-12 sm:py-18 lg:py-24 text-stone-900 dark:text-stone-200">
   
       {/* Intro */}
-      <div className="mb-4 sm:mb-10 max-w-4xl flex flex-col items-center">
+      <div className="mb-4 sm:mb-10 max-w-4xl flex flex-col items-center ">
         <p className="text-lg sm:text-2xl leading-relaxed font-medium italic opacity-90 mb-10 text-center">
           I’m <span className="font-semibold">Yu Yu</span>, a Frontend Engineer based in Myanmar with a passion for building clean, user-centered web interfaces. I combine modern frontend technologies with a strong foundation in UI/UX design to create accessible and responsive applications.
         </p>
@@ -46,11 +47,11 @@ const softSkillList = [
         </h3>
 
         {/* Tech */}
-        <div className="col-span-5 sm:col-span-4 lg:col-span-3 flex p-2 rounded-lg border bg-blue-100/30 dark:bg-blue-900/20 border-blue-200/30 dark:border-blue-900/20 shadow-lg dark:shadow-[0_8px_30px_rgba(0,0,0,0.35) ml-auto">
+        <div className=" col-span-5 sm:col-span-4 lg:col-span-3 flex p-2 rounded-lg border bg-blue-100/30 dark:bg-blue-900/20 border-blue-200/30 dark:border-blue-900/20 shadow-lg dark:shadow-[0_8px_30px_rgba(0,0,0,0.35) ml-auto">
           <h2 className="text-base sm:text-lg lg:text-2xl font-bold uppercase italic mr-2 [writing-mode:vertical-rl] rotate-180">Tech Stacks</h2>
           <div className="grid grid-cols-3 gap-2">
             {techList?.map((tech) => (
-              <p className="px-2 sm:px-4 py-1 sm:py-2 text-xs sm:text-sm font-medium bg-blue-200 dark:bg-blue-900 border border-stone-200/60 dark:border-stone-700/60 text-start" key={tech.id}>{tech.name}</p>
+              <p className="px-2 sm:px-4 py-1 sm:py-2 text-xs sm:text-sm font-medium bg-blue-200 dark:bg-blue-900 border border-stone-200/60 dark:border-stone-700/60 text-start break-words white-space-normal" key={tech.id}>{tech.name}</p>
             ))}
           </div>
         </div>
@@ -60,7 +61,7 @@ const softSkillList = [
         </div>
 
         {/* Language */}
-        <div className="col-span-5 sm:col-span-4 lg:col-span-3 flex p-2 rounded-lg border bg-blue-100/30 dark:bg-blue-900/20 border-blue-200/30 dark:border-blue-900/20 shadow-lg dark:shadow-[0_8px_30px_rgba(0,0,0,0.35) ml-auto mr-4 sm:mr-0">
+        <div className=" col-span-5 sm:col-span-4 lg:col-span-3 flex p-2 rounded-lg border bg-blue-100/30 dark:bg-blue-900/20 border-blue-200/30 dark:border-blue-900/20 shadow-lg dark:shadow-[0_8px_30px_rgba(0,0,0,0.35) ml-auto mr-4 sm:mr-0">
           <h2 className="text-base sm:text-lg lg:text-2xl font-bold uppercase italic mr-2 [writing-mode:vertical-rl] rotate-180">Languages</h2>
           <div className="grid grid-cols-1 gap-2">
             {languageList?.map((lan) => (
@@ -71,11 +72,11 @@ const softSkillList = [
         </div>
 
         {/* softskills */}
-        <div className="col-span-5 sm:col-span-4 lg:col-span-3 flex p-2 rounded-lg border bg-blue-100/30 dark:bg-blue-900/20 border-blue-200/30 dark:border-blue-900/20 shadow-lg dark:shadow-[0_8px_30px_rgba(0,0,0,0.35) ml-auto">
+        <div className=" col-span-5 sm:col-span-4 lg:col-span-3 flex p-2 rounded-lg border bg-blue-100/30 dark:bg-blue-900/20 border-blue-200/30 dark:border-blue-900/20 shadow-lg dark:shadow-[0_8px_30px_rgba(0,0,0,0.35) ml-auto">
           <h2 className="text-base sm:text-lg lg:text-2xl font-bold uppercase italic mr-2 [writing-mode:vertical-rl] rotate-180">Softskills</h2>
           <div className="grid grid-cols-2 gap-2">
             {softSkillList?.map((soft) => (
-              <p className="px-2 sm:px-4 py-1 sm:py-2 text-xs sm:text-sm font-medium bg-blue-200 dark:bg-blue-900 border border-stone-200/60 dark:border-stone-700/60 text-start" key={soft.id}>{soft.name}</p>
+              <p className="px-2 sm:px-4 py-1 sm:py-2 text-xs sm:text-sm font-medium bg-blue-200 dark:bg-blue-900 border border-stone-200/60 dark:border-stone-700/60 text-start break-words white-space-normal" key={soft.id}>{soft.name}</p>
             ))}
           </div>
         </div>
@@ -85,7 +86,7 @@ const softSkillList = [
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 px-2 sm:px-10 text-lb-frame py-10 sm:py-14">
         
         {/* Education */}
-        <div className="pl-6 sm:pl-10">
+        <div className=" pl-6 sm:pl-10">
           <h3 className="text-2xl sm:text-4xl font-bold mb-4 sm:mb-10 tracking-tight italic">
             Education
           </h3>
@@ -127,7 +128,7 @@ const softSkillList = [
         </div>
 
         {/* Experience */}
-        <div className="pl-6 sm:pl-10">
+        <div className=" pl-6 sm:pl-10">
           <h3 className="text-2xl sm:text-4xl font-bold mb-4 sm:mb-10 tracking-tight italic">
             Experience
           </h3>

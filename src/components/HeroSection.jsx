@@ -46,7 +46,7 @@ const HeroSection = () => {
           <div className="flex flex-wrap items-center gap-3 sm:gap-6 pt-4">
             <button
               onClick={() => (window.open("/YuYuCV.pdf"))}
-              className="py-2 sm:py-4 px-6 sm:px-10 rounded-full text-xl sm:text-2xl font-semibold border-2 border-orange-600 text-orange-700 bg-transparent transition-all duration-300 hover:bg-orange-600 hover:text-white hover:shadow-lg dark:border-orange-400 dark:text-orange-300 dark:hover:bg-orange-500 dark:hover:text-white"
+              className="py-2 sm:py-4 px-4 sm:px-10 rounded-full text-lg sm:text-2xl font-semibold border-2 border-orange-600 text-orange-700 bg-transparent transition-all duration-300 hover:bg-orange-600 hover:text-white hover:shadow-lg dark:border-orange-400 dark:text-orange-300 dark:hover:bg-orange-500 dark:hover:text-white"
             >
               Download CV
             </button>

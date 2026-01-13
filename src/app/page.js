@@ -11,7 +11,9 @@ export default function Home() {
     <div className="min-h-screen bg-stone-100 dark:bg-stone-900 w-full py-8 sm:py-14">
       <Header /> 
       <HeroSection/>
-      <h2 className="w-full py-8 sm:py-10 lg:py-12 bg-blue-400 dark:bg-blue-900 text-4xl sm:text-5xl lg:text-6xl font-bold text-stone-700 dark:text-stone-300 text-lb-frame px-4 sm:px-10 lg:px-24" id="about-me">About Me</h2>
+      <div className="relative overflow-hidden w-full py-8 sm:py-10 lg:py-12 bg-blue-400 dark:bg-blue-900 text-lb-frame px-4 sm:px-10 lg:px-24" id="about-me">
+        <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-stone-700 dark:text-stone-300">About Me</h2>
+      </div>
       <AboutMe />
       <Projects/>
       <Recommendation/>

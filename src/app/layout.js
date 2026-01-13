@@ -1,3 +1,4 @@
+import EntryLoader from "@/components/EntryLoader";
 import "@/style/globals.css";
 import { ThemeProvider } from "next-themes";
 
@@ -9,10 +10,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" suppressHydrationWarning >
+    <html lang="en" suppressHydrationWarning>
       <body className="min-h-screen">
         <ThemeProvider attribute={"class"} enableSystem defaultTheme="system">
-          {children}
+          <EntryLoader>{children}</EntryLoader>
         </ThemeProvider>
       </body>
     </html>

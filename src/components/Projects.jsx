@@ -1,4 +1,4 @@
-
+'use client'
 
 import { ActivityIcon, GithubIcon } from 'lucide-react';
 import Link from 'next/link';
@@ -52,7 +52,7 @@ const Projects = () => {
         </div> 
 
         {/* Novio Card */}
-        <div className='w-[330px] sm:w-100 bg-purple-200 dark:bg-purple-700 rounded-lg sm:rounded-xl shadow-md flex flex-col h-full mx-auto'>
+        <div className=' w-[330px] sm:w-100 bg-purple-200 dark:bg-purple-700 rounded-lg sm:rounded-xl shadow-md flex flex-col h-full mx-auto'>
           <div className='w-full h-auto flex gap-2 items-center px-2 sm:px-4 py-2 bg-purple-600 dark:bg-purple-900 rounded-t-xl text-white'>
             <img src='/novio.png' className='rounded-full w-[80px] sm:w-[100px]'/>
             <div className='flex flex-col justify-between items-start'>
@@ -84,7 +84,7 @@ const Projects = () => {
         </div> 
 
         {/* Skillsphere's Card */}
-        <div className='w-[330px] sm:w-100 bg-blue-100 dark:bg-blue-700 rounded-lg sm:rounded-xl shadow-md flex flex-col h-full mx-auto'>
+        <div className=' w-[330px] sm:w-100 bg-blue-100 dark:bg-blue-700 rounded-lg sm:rounded-xl shadow-md flex flex-col h-full mx-auto'>
           <div className='w-full h-auto flex gap-2 items-center px-2 sm:px-4 py-2 bg-blue-600 dark:bg-blue-900 rounded-t-xl text-white'>
             <img src='/skillsphere.png' className='rounded-full w-[80px] sm:w-[100px] p-3'/>
             <div className='flex flex-col justify-between items-start'>
