@@ -21,7 +21,7 @@ const Header = () => {
         <nav className="flex items-center gap-2 sm:gap-4 lg:gap-6 text-sm sm:text-base">
           <a
             href="#about-me"
-            className=" font-medium text-sepia-black-950 dark:text-sepia-black-100 hover:opacity-80 transition"
+            className="font-medium text-sepia-black-950 dark:text-sepia-black-100 hover:opacity-80 transition"
           >
             About
           </a>

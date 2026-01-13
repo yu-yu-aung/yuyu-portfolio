@@ -12,7 +12,7 @@ const Projects = () => {
         <h2 className='text-4xl sm:text-5xl lg:text-6xl font-bold text-stone-700 dark:text-stone-300 mb-4'>My Projects</h2> 
         <hr className="text-blue-900 dark:to-blue-200 w-xs sm:w-lg lg:w-3xl border mt-2" />
         <p className='text-base sm:text-lg italic font-medium dark:text-stone-300 mt-1 text-center'>
-          I build frontend projects and UI/UX case studies to strengthen my problem-solving and product design skills.
+          I built frontend projects and UI/UX case studies to strengthen my problem-solving and product design skills.
         </p>
       </div>
 
