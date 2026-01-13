@@ -22,7 +22,7 @@ const EntryLoader = ({children}) => {
             <span 
               key={i}
               style={{animationDelay: `${i * 0.15}s`}}
-              className='px-2 py-4 text-7xl font-extrabold rounded-sm bg-blue-200 text-blue-600 text-3d card-3d animate-wave'
+              className='px-2 py-4 text-4xl sm:text-7xl font-extrabold rounded-sm bg-blue-200 text-blue-600 text-3d card-3d animate-wave'
             >
               {cha}
             </span>
