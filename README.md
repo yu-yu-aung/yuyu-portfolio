@@ -35,5 +35,5 @@ HTML, CSS, JavaScript, React, NextJs, Tailwind CSS, TypeScript, Figma, Supabase
 Burmese, English, Chinese 
 
 ## Contact 
--Email: yuyuaungayy@gmail.com 
--LinkedIn: [Link](https://www.linkedin.com/in/yu-yu-aung-38b462235/) 
+- Email: yuyuaungayy@gmail.com 
+- LinkedIn: [Link](https://www.linkedin.com/in/yu-yu-aung-38b462235/) 
