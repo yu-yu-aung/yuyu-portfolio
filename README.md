@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Yu Yu's Frontend Portfolio 
 
-## Getting Started
+## About Me 
+I'm a frontend engineer based in Myanmar who love buiding clean and user-centered web interfaces. 
 
-First, run the development server:
+[View Portfolio](https://yuyu-aung.vercel.app/) 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## My Projects 
+### Novio Online Writing App
+- User authentication (signup/login/logout/ delete account)
+- Story creating and publishig (create/ publish/ unpublish/ edit/ delete)
+- Add stories to library
+-  Create bookshelf and change visibility
+- Profile and Notification
+- Live Demo: [Link](https://novio-writing-app-mcmb.vercel.app/)
+- GitHub Repo: [Link](https://github.com/yu-yu-aung/novio-writing-app.git)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Eagle's Daily News 
+- User authentication (signup/login/logout)
+- Save articles
+- Explore different articles
+- Live Demo: [Link](https://eagle-daily-news.vercel.app/)
+- GitHub Repo: [Link](https://github.com/yu-yu-aung/eagle-daily-news.git)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### SkillSphere Online Learning App - UI/UX Casestudy
+- Conducted UX research
+- Created Site Map, IA, Userflow and wireframes
+- Designed over 30 mobile high fidelity wireframes
+- Behance Link: [Link](https://www.behance.net/gallery/232689389/SkillSphere-Educational-App-UIUX-Case-Study)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Tech Stack
+HTML, CSS, JavaScript, React, NextJs, Tailwind CSS, TypeScript, Figma, Supabase 
 
-## Learn More
+## Languages 
+Burmese, English, Chinese 
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contact 
+- Email: yuyuaungayy@gmail.com 
+- LinkedIn: [Link](https://www.linkedin.com/in/yu-yu-aung-38b462235/) 
