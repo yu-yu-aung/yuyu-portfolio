@@ -34,7 +34,7 @@ const softSkillList = [
   
       {/* Intro */}
       <div className="mb-4 sm:mb-10 max-w-4xl flex flex-col items-center ">
-        <p className="text-lg sm:text-2xl leading-relaxed font-medium italic opacity-90 mb-10 text-center">
+        <p className="text-lg sm:text-2xl leading-relaxed font-medium italic opacity-90 mb-10 text-center fade-up">
           I’m <span className="font-semibold">Yu Yu</span>, a Frontend Engineer based in Myanmar with a passion for building clean, user-centered web interfaces. I combine modern frontend technologies with a strong foundation in UI/UX design to create accessible and responsive applications.
         </p>
         <hr className="text-blue-900 dark:to-blue-200 w-xs sm:w-lg lg:w-3xl border mt-2" />
@@ -47,7 +47,7 @@ const softSkillList = [
         </h3>
 
         {/* Tech */}
-        <div className=" col-span-5 sm:col-span-4 lg:col-span-3 flex p-2 rounded-lg border bg-blue-100/30 dark:bg-blue-900/20 border-blue-200/30 dark:border-blue-900/20 shadow-lg dark:shadow-[0_8px_30px_rgba(0,0,0,0.35) ml-auto">
+        <div className=" col-span-5 sm:col-span-4 lg:col-span-3 flex p-2 rounded-lg border bg-blue-100/30 dark:bg-blue-900/20 border-blue-200/30 dark:border-blue-900/20 shadow-lg dark:shadow-[0_8px_30px_rgba(0,0,0,0.35) ml-auto fade-up">
           <h2 className="text-base sm:text-lg lg:text-2xl font-bold uppercase italic mr-2 [writing-mode:vertical-rl] rotate-180">Tech Stacks</h2>
           <div className="grid grid-cols-3 gap-2">
             {techList?.map((tech) => (
@@ -61,7 +61,7 @@ const softSkillList = [
         </div>
 
         {/* Language */}
-        <div className=" col-span-5 sm:col-span-4 lg:col-span-3 flex p-2 rounded-lg border bg-blue-100/30 dark:bg-blue-900/20 border-blue-200/30 dark:border-blue-900/20 shadow-lg dark:shadow-[0_8px_30px_rgba(0,0,0,0.35) ml-auto mr-4 sm:mr-0">
+        <div className=" col-span-5 sm:col-span-4 lg:col-span-3 flex p-2 rounded-lg border bg-blue-100/30 dark:bg-blue-900/20 border-blue-200/30 dark:border-blue-900/20 shadow-lg dark:shadow-[0_8px_30px_rgba(0,0,0,0.35) ml-auto mr-4 sm:mr-0 fade-up">
           <h2 className="text-base sm:text-lg lg:text-2xl font-bold uppercase italic mr-2 [writing-mode:vertical-rl] rotate-180">Languages</h2>
           <div className="grid grid-cols-1 gap-2">
             {languageList?.map((lan) => (
@@ -72,7 +72,7 @@ const softSkillList = [
         </div>
 
         {/* softskills */}
-        <div className=" col-span-5 sm:col-span-4 lg:col-span-3 flex p-2 rounded-lg border bg-blue-100/30 dark:bg-blue-900/20 border-blue-200/30 dark:border-blue-900/20 shadow-lg dark:shadow-[0_8px_30px_rgba(0,0,0,0.35) ml-auto">
+        <div className=" col-span-5 sm:col-span-4 lg:col-span-3 flex p-2 rounded-lg border bg-blue-100/30 dark:bg-blue-900/20 border-blue-200/30 dark:border-blue-900/20 shadow-lg dark:shadow-[0_8px_30px_rgba(0,0,0,0.35) ml-auto fade-up">
           <h2 className="text-base sm:text-lg lg:text-2xl font-bold uppercase italic mr-2 [writing-mode:vertical-rl] rotate-180">Softskills</h2>
           <div className="grid grid-cols-2 gap-2">
             {softSkillList?.map((soft) => (
@@ -86,7 +86,7 @@ const softSkillList = [
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 px-2 sm:px-10 text-lb-frame py-10 sm:py-14">
         
         {/* Education */}
-        <div className=" pl-6 sm:pl-10">
+        <div className=" pl-6 sm:pl-10 fade-up">
           <h3 className="text-2xl sm:text-4xl font-bold mb-4 sm:mb-10 tracking-tight italic">
             Education
           </h3>
@@ -128,7 +128,7 @@ const softSkillList = [
         </div>
 
         {/* Experience */}
-        <div className=" pl-6 sm:pl-10">
+        <div className=" pl-6 sm:pl-10 fade-up">
           <h3 className="text-2xl sm:text-4xl font-bold mb-4 sm:mb-10 tracking-tight italic">
             Experience
           </h3>
