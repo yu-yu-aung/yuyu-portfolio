@@ -357,3 +357,8 @@ body {
     transform: translateX(0);
   }
 }
+
+.fade-up,
+.card-slide-in {
+  will-change: transform, opacity;
+}
