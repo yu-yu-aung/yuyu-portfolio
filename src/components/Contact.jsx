@@ -10,7 +10,7 @@ const Contact = () => {
       <p className="mb-4 text-sm sm:text-base">Feel free to reach out via email or connect on LinkedIn.</p>
       <div className="flex justify-center gap-4 px-4">
         <button
-          onClick={() => (window.open("/YuYuCV.pdf"))}
+          onClick={() => (window.open("/simple_resume.pdf"))}
           className="p-2 sm:p-4 rounded-full border text-stone-800 dark:text-stone-200 border-stone-400 transition-all duration-300 hover:border-blue-600 hover:text-blue-600 hover:bg-blue-50 dark:border-stone-600 dark:hover:border-blue-400 dark:hover:text-blue-300 dark:hover:bg-blue-950"
         >
           <DownloadIcon className="size-6 sm:size-8" />

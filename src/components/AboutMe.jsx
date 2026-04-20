@@ -138,7 +138,7 @@ const softSkillList = [
               {
                 title: "Frontend Developer",
                 org: "MMS IT Software Solutions — Internship (Online)",
-                date: "July 2025 – Present",
+                date: "July 2025 – Feb 2026",
               },
               {
                 title: "Volunteer UI/UX Designer",
