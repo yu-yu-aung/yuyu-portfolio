@@ -96,12 +96,12 @@ const softSkillList = [
               {
                 title: "Associate Degree in Computer Science",
                 org: "University of the People, USA (Online)",
-                date: "Expected March 2026",
+                date: "April 2026",
               },
               {
                 title: "B.Sc in Computer Science",
                 org: "University of the People, USA (Online)",
-                date: "In Progress",
+                date: "Expected April 2027",
               },
               {
                 title: "B.Tech in Architecture",
