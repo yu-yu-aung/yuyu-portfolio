@@ -1,24 +1,9 @@
-import AboutMe from "@/components/AboutMe";
-import Contact from "@/components/Contact";
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
-import HeroSection from "@/components/HeroSection";
-import Projects from "@/components/Projects";
-import Recommendation from "@/components/Recommendation";
+import HeroSection from '@/components/HeroSection';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-stone-100 dark:bg-stone-900 w-full py-8 sm:py-14">
-      <Header /> 
-      <HeroSection/>
-      <div className="relative overflow-hidden w-full py-8 sm:py-10 lg:py-12 bg-blue-400 dark:bg-blue-900 text-lb-frame px-4 sm:px-10 lg:px-24" id="about-me">
-        <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-stone-700 dark:text-stone-300">About Me</h2>
-      </div>
-      <AboutMe />
-      <Projects/>
-      <Recommendation/>
-      <Contact/>
-      <Footer/>
+    <div className="h-screen w-full bg-background flex items-center">
+      <HeroSection />
     </div>
   );
 }

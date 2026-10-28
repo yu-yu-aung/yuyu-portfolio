@@ -1,17 +1,19 @@
-"use client"
-import { Download, DownloadIcon, GithubIcon, LinkedinIcon, Mail } from 'lucide-react'
-import Link from 'next/link'
-import React from 'react'
+"use client";
+import { DownloadIcon, GithubIcon, LinkedinIcon, Mail } from 'lucide-react';
+import Link from 'next/link';
+import React from 'react';
 
 const Contact = () => {
   return (
-    <section className="text-center py-10 text-stone-900 dark:text-stone-200" id='contact'>
-      <h3 className="text-2xl sm:text-4xl font-bold mb-4">Contact Me</h3>
-      <p className="mb-4 text-sm sm:text-base">Feel free to reach out via email or connect on LinkedIn.</p>
+    <section className="py-10 text-center text-foreground" id="contact">
+      <h3 className="mb-4 text-2xl font-bold sm:text-4xl">Contact Me</h3>
+      <p className="mb-4 text-sm text-muted-foreground sm:text-base">
+        Feel free to reach out via email or connect on LinkedIn.
+      </p>
       <div className="flex justify-center gap-4 px-4">
         <button
-          onClick={() => (window.open("/simple_resume.pdf"))}
-          className="p-2 sm:p-4 rounded-full border text-stone-800 dark:text-stone-200 border-stone-400 transition-all duration-300 hover:border-blue-600 hover:text-blue-600 hover:bg-blue-50 dark:border-stone-600 dark:hover:border-blue-400 dark:hover:text-blue-300 dark:hover:bg-blue-950"
+          onClick={() => window.open('/simple_resume.pdf')}
+          className="rounded-full border border-border bg-card p-2 text-foreground transition-all duration-300 hover:border-brand hover:bg-secondary hover:text-brand sm:p-4"
         >
           <DownloadIcon className="size-6 sm:size-8" />
         </button>
@@ -20,7 +22,7 @@ const Contact = () => {
           href="https://github.com/yu-yu-aung"
           target="_blank"
           rel="noopener noreferrer"
-          className="p-2 sm:p-4 rounded-full border text-stone-800 dark:text-stone-200 border-stone-400 transition-all duration-300 hover:border-blue-600 hover:text-blue-600 hover:bg-blue-50 dark:border-stone-600 dark:hover:border-blue-400 dark:hover:text-blue-300 dark:hover:bg-blue-950"
+          className="rounded-full border border-border bg-card p-2 text-foreground transition-all duration-300 hover:border-brand hover:bg-secondary hover:text-brand sm:p-4"
         >
           <GithubIcon className="size-6 sm:size-8" />
         </Link>
@@ -29,7 +31,7 @@ const Contact = () => {
           href="https://www.linkedin.com/in/yu-yu-aung-38b462235/"
           target="_blank"
           rel="noopener noreferrer"
-          className="p-2 sm:p-4 rounded-full border text-stone-800 dark:text-stone-200 border-stone-400 transition-all duration-300 hover:border-blue-600 hover:text-blue-600 hover:bg-blue-50 dark:border-stone-600 dark:hover:border-blue-400 dark:hover:text-blue-300 dark:hover:bg-blue-950"
+          className="rounded-full border border-border bg-card p-2 text-foreground transition-all duration-300 hover:border-brand hover:bg-secondary hover:text-brand sm:p-4"
         >
           <LinkedinIcon className="size-6 sm:size-8" />
         </Link>
@@ -38,14 +40,13 @@ const Contact = () => {
           href="mailto:yuyuaungayy@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="p-2 sm:p-4 rounded-full border text-stone-800 dark:text-stone-200 border-stone-400 transition-all duration-300 hover:border-blue-600 hover:text-blue-600 hover:bg-blue-50 dark:border-stone-600 dark:hover:border-blue-400 dark:hover:text-blue-300 dark:hover:bg-blue-950"
+          className="rounded-full border border-border bg-card p-2 text-foreground transition-all duration-300 hover:border-brand hover:bg-secondary hover:text-brand sm:p-4"
         >
           <Mail className="size-6 sm:size-8" />
         </Link>
       </div>
     </section>
+  );
+};
 
-  )
-}
-
-export default Contact
+export default Contact;

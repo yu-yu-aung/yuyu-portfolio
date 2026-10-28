@@ -1,30 +1,32 @@
 "use client"
 
 import { Moon, Sun } from 'lucide-react';
-import { useTheme } from 'next-themes'
-import React, { useEffect, useState } from 'react'
+import { useTheme } from 'next-themes';
+import React, { useEffect, useState } from 'react';
 
 const ThemeButton = () => {
-  const {theme, setTheme} = useTheme();
-  const [mounted, setMounted] = useState(false); 
-  
+  const { theme, setTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+
   useEffect(() => {
-    setMounted(true); 
-  }, [])
+    setMounted(true);
+  }, []);
 
-  if (!mounted) return null;  
+  if (!mounted) return null;
 
-  useEffect
   return (
-    <button 
-      className='rounded-full p-2 relative  text-sepia-black-950 dark:text-sepia-black-100'
-      type='button'
-      onClick={() => {
-        setTheme(theme === "light" ? "dark" : "light")}}
+    <button
+      className="relative bg-transparent p-2 text-foreground transition-colors hover:border-brand hover:text-brand"
+      type="button"
+      onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
     >
-      {theme === "light" ? <Moon className="size-4 sm:size-6 focus:outline-none" /> : <Sun className="size-4 sm:size-6 focus:outline-none" />}
+      {theme === 'light' ? (
+        <Moon className="size-4 focus:outline-none sm:size-6" />
+      ) : (
+        <Sun className="size-4 focus:outline-none sm:size-6" />
+      )}
     </button>
-  )
-}
+  );
+};
 
-export default ThemeButton
+export default ThemeButton;
