@@ -29,7 +29,7 @@ const HeroSection = () => {
             ))}
           </h2>
 
-          <div className="flex flex-col gap-4 text-foreground backdrop-blur-md sm:gap-6">
+          <div className="flex flex-col gap-4 text-foreground backdrop-blur-md sm:gap-4 mt-2">
             <p className="text-2xl font-semibold leading-tight sm:text-4xl">
               I&apos;m{' '}
               <span className="text-3xl font-bold text-brand sm:text-5xl">
@@ -39,7 +39,7 @@ const HeroSection = () => {
 
             <p className="text-xl font-medium leading-relaxed sm:text-2xl">
               I build thoughtful digital experiences <br />
-              combining full-stack development, AI, and UI/UX design <br />
+              combining full-stack development, AI, and UI/UX <br />
               to turn complex ideas into practical solutions.
             </p>
           </div>

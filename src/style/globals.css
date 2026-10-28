@@ -41,29 +41,29 @@
 
   /* APPLICATION */
 
-  --background: #ffffff;
+  --background: #f1eeee;
   --foreground: #171717;
 
 
   /*  CARD */
 
-  --card: #ffffff;
+  --card: #e4e3e3;
   --card-foreground: #171717;
 
 
   /*  POPOVER */
 
-  --popover: #ffffff;
+  --popover: #f5f0f0;
   --popover-foreground: #171717;
 
 
   /*  PRIMARY / BRAND */
 
   --primary: var(--color-sepia-black-500);
-  --primary-foreground: #FFFFFF;
+  --primary-foreground: #f3eded;
 
   --brand: var(--color-sepia-black-500);
-  --brand-foreground: #FFFFFF;
+  --brand-foreground: #f3f1f1;
 
 
   /* SECONDARY */
@@ -75,7 +75,7 @@
   /*  ACCENT */
 
   --accent: var(--color-aths-special-500);
-  --accent-foreground: #FFFFFF;
+  --accent-foreground: #f5f0f0;
 
 
   /*  MUTED UI */

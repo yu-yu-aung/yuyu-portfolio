@@ -4,8 +4,8 @@ import Recommendation from '@/components/Recommendation';
 const Page = () => {
   return (
     <section className="bg-background">
-      <Recommendation />
       <Contact />
+      <Recommendation />
     </section>
   );
 };

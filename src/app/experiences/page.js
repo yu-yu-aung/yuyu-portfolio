@@ -1,11 +1,8 @@
 const Page = () => {
   return (
-    <section className="min-h-[50vh] bg-background px-6 py-20 text-foreground sm:px-10 lg:px-24">
-      <div className="mx-auto max-w-4xl rounded-2xl border border-border bg-card p-8 shadow-sm">
-        <h1 className="text-4xl font-bold text-brand sm:text-5xl">Experience</h1>
-        <p className="mt-4 text-lg text-muted-foreground">
-          This page is ready for the next iteration of the portfolio experience timeline.
-        </p>
+    <section className="h-full w-full bg-background">
+      <div className="relative overflow-hidden bg-primary px-4 py-4 text-primary-foreground sm:px-10 sm:py-6 lg:px-24 lg:py-8" id="about-me">
+        <h2 className="text-4xl font-bold sm:text-5xl lg:text-6xl capitalize">Work experiences</h2>
       </div>
     </section>
   );
