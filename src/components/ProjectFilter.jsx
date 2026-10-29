@@ -32,11 +32,11 @@ const ProjectFilter = () => {
         <div
           role="tablist"
           aria-label="Project filter options"
-          className="relative flex min-w-[500px] bg-background p-1.5 border-b-1 border-border"
+          className="relative flex min-w-[500px] bg-background p-1.5"
         >
           {/* Sliding background */}
           <span
-            className={`pointer-events-none absolute bottom-1.5 left-1.5 top-1.5 w-[calc((100%-0.75rem)/3)] rounded-xl bg-card shadow-sm ring-1 ring-border/60 transition-transform duration-300 ease-out ${
+            className={`pointer-events-none absolute bottom-1.5 left-1.5 top-1.5 w-[calc((100%-0.75rem)/3)] rounded-lg shadow-sm ring-1 ring-accent/40 transition-transform duration-300 ease-out ${
               filter === 'software'
                 ? 'translate-x-0'
                 : filter === 'ai'
@@ -56,9 +56,9 @@ const ProjectFilter = () => {
                 role="tab"
                 aria-selected={isActive}
                 onClick={() => setFilter(tab.id)}
-                className={`relative z-10 flex h-11 w-1/3 items-center justify-center gap-2 rounded-xl px-3 text-xs font-semibold transition-colors duration-300 ${
+                className={`relative z-10 flex h-11 w-1/3 items-center justify-center gap-2 rounded-xl text-xs font-semibold transition-colors duration-300 ${
                   isActive
-                    ? 'text-primary bg-brand/20'
+                    ? 'text-primary border-border border-accent/40'
                     : 'text-muted-foreground hover:text-foreground'
                 }`}
               >

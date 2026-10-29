@@ -10,7 +10,7 @@ const HeroSection = () => {
   const iconSizeClass = 'size-4 sm:size-5'; 
 
   return (
-      <section className="grid grid-cols-1 items-center gap-8 sm:gap-12 lg:grid-cols-7 relative mx-auto w-full max-w-7xl px-6 sm:px-10 sm:py-20 lg:px-24 flex items-center mt-12 md:mt-16 lg:mt-20">
+      <section className="grid grid-cols-1 items-center gap-8 sm:gap-12 lg:grid-cols-7 relative mx-auto w-full max-w-7xl px-6 sm:px-10 sm:py-16 lg:px-24 flex items-center mt-8 md:mt-10 lg:mt-12">
 
         <div className="flex justify-center lg:col-span-3 relative rounded-2xl items-center">
           <img 

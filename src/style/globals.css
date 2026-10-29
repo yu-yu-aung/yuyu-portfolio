@@ -277,10 +277,10 @@
      ------------------------------------------------------- */
 
   --brand: var(--color-sepia-black-400);
-  --brand-foreground: #FFFFFF;
+  --brand-foreground: #f1f1f1;
 
   --primary: var(--color-sepia-black-400);
-  --primary-foreground: #FFFFFF;
+  --primary-foreground: #f1f1f1;
 
 
   /* -------------------------------------------------------
@@ -337,7 +337,7 @@
      Text
      ------------------------------------------------------- */
 
-  --heading: #FFFFFF;
+  --heading: #f7f4f4;
   --body: #d4d4d4;
   --disabled: #737373;
 }
