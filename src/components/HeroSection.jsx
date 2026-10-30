@@ -38,9 +38,8 @@ const HeroSection = () => {
             </p>
 
             <p className="text-xl font-medium leading-relaxed sm:text-2xl">
-              I build thoughtful digital experiences <br />
+              A full-stack developer who builds practical solutions <br />
               combining full-stack development, AI, and UI/UX <br />
-              to turn complex ideas into practical solutions.
             </p>
           </div>
 

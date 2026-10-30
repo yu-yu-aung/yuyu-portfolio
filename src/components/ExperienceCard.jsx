@@ -5,7 +5,7 @@ const ExperienceCard = ({experience}) => {
     <article className="fade-up w-full max-w-4xl">
       <div className="mb-5 flex flex-col gap-2 sm:mb-6 sm:flex-row sm:items-start sm:justify-between">
         <div>
-          <h3 className="text-lg font-bold leading-relaxed text-heading sm:text-xl">
+          <h3 className="text-xl font-bold leading-relaxed text-heading sm:text-2xl md:text-3xl">
             {experience.role}
           </h3>
 
@@ -14,7 +14,7 @@ const ExperienceCard = ({experience}) => {
           </p>
         </div>
 
-        <span className="w-fit shrink-0 rounded-full border border-border px-3 py-1 font-mono text-xs text-body">
+        <span className="w-fit shrink-0 rounded-full border border-accent px-3 py-1 font-mono text-xs text-body">
           {experience.period}
         </span>
       </div>
@@ -49,7 +49,7 @@ const ExperienceCard = ({experience}) => {
           {experience.stack.map((skill) => (
             <span
               key={skill}
-              className="rounded-md border border-border bg-foreground/[0.03] px-3 py-1.5 text-xs text-body transition-colors hover:border-brand/50 hover:text-brand sm:text-sm"
+              className="rounded-md border border-border bg-card px-3 py-1.5 text-xs text-body transition-colors hover:border-brand/50 hover:text-brand sm:text-sm"
             >
               {skill}
             </span>

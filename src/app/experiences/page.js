@@ -6,7 +6,7 @@ const experiences = [
   {
     company: "ROM Dynamics Co., Ltd.",
     role: "Full-stack Software Engineer",
-    period: "Current",
+    period: "Jan 2026 - Present",
     description:
       "Contribute to developing web applications across the frontend and backend, focusing on maintainable architecture, functional interfaces, and reliable application workflows.",
     responsibilities: [
@@ -21,28 +21,32 @@ const experiences = [
       "PHP",
       "Laravel",
       "PostgreSQL",
+      "Linuix",
       "Docker",
-      "Nginx"
+      "Nginx", 
+      "Cloudflare", 
+      "Kubernetes"
     ]
   },
   {
     company: "DeepBlue AI Labs",
     role: "AI Engineer (Volunteer)",
-    period: "Volunteer",
+    period: "June 2026 - Present",
     description:
       "Explore AI and machine learning concepts through technical research and practical experimentation, with an interest in bringing AI capabilities into real-world software and edge devices.",
     responsibilities: [
-      "Study neural network architectures, computer vision, and model behavior.",
+      "Study neural network architectures, computer vision, reinforcement learning for robotics and model behavior.",
       "Explore small language models and the trade-offs between model quality, memory usage, and inference performance on edge hardware.",
       "Investigate practical approaches to integrating AI models into software systems."
     ],
     stack: [
       "Python",
+      "C++",
       "PyTorch",
       "Neural Networks",
       "Computer Vision",
       "LLMs / SLMs",
-      "NVIDIA Jetson"
+      "Reinforecement Learning"
     ]
   },
   {
@@ -50,17 +54,18 @@ const experiences = [
     role: "Full-stack Developer (Part-time)",
     period: "Part-time",
     description:
-      "Develop practical software solutions with a focus on business workflows, maintainable web applications, and AI integration. My current focus includes a gym management SaaS platform designed to simplify day-to-day gym operations.",
+      "Develop practical software solutions with a focus on business workflows, maintainable web applications, and AI integration. My current focus includes a gym management SaaS platform designed to simplify day-to-day gym operations and other software solutions.",
     responsibilities: [
-      "Build gym management features and business workflows using PHP and Laravel.",
+      "Build system software features and business workflows using PHP and Laravel.",
       "Design and implement database-backed functionality for managing application data.",
       "Explore opportunities to integrate AI capabilities into practical business software."
     ],
     stack: [
       "PHP",
       "Laravel",
-      "MySQL",
+      "PostgreSQL",
       "JavaScript",
+      "TypeScript",
       "React",
       "Next.js",
       "REST APIs",
@@ -70,7 +75,7 @@ const experiences = [
   {
     company: "MMS IT",
     role: "Frontend Engineer (Remote Internship)",
-    period: "Remote",
+    period: "June 2025 - Dec 2025",
     description:
       "Develop responsive web interfaces and frontend features using modern JavaScript frameworks, with an emphasis on reusable components, maintainable code, and a consistent user experience.",
     responsibilities: [
@@ -86,13 +91,14 @@ const experiences = [
       "Zustand",
       "Flowbite",
       "Docker",
-      "Coolify"
+      "Coolify", 
+      "ShadCN UI"
     ]
   },
   {
     company: "Brain Builders Organization",
     role: "UI/UX Designer (Internship)",
-    period: "Internship",
+    period: "Feb 2025 - Aug 2025",
     description:
       "Designed user-centered mobile interfaces by translating product requirements into clear user flows, high-fidelity screens, and consistent visual design systems.",
     responsibilities: [
@@ -106,7 +112,8 @@ const experiences = [
       "Wireframing",
       "Prototyping",
       "Design Systems",
-      "User-Centered Design"
+      "User-Centered Design", 
+      "UX Analysis & Research"
     ]
   },
   {
