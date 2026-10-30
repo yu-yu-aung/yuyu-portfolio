@@ -26,7 +26,7 @@ export default function Footer() {
             <Linkedin size={20} />
           </Link>
 
-          <Link href="mailto:yuyuaungayy@gmail.com" className="transition hover:text-brand">
+          <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=yuyuaungayy@gmail.com" className="transition hover:text-brand">
             <Mail size={20} />
           </Link>
         </div>

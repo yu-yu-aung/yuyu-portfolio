@@ -70,7 +70,7 @@ const HeroSection = () => {
             </Link>
 
             <Link
-              href="mailto:yuyuaungayy@gmail.com"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=yuyuaungayy@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               className={`${iconBaseClass}`}
