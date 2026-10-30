@@ -79,16 +79,7 @@ const ProjectFilter = () => {
 
       {/* Content Grid */}
       {filter === 'software' && (
-        <div className="grid grid-cols-1 gap-6 animate-in fade-in slide-in-from-bottom-2 duration-300 mb-10 sm:mb-20 md:mb-30">
-          <ProjectCard
-            title="Eagle's Daily News"
-            category="Daily News Website"
-            description="Eagle’s Daily News is a modern news platform that allows users to read, share, and save daily updated articles. Built with React and Next.js, using Zustand for state management, Flowbite UI for interface components, React Hot Toast for feedback, Supabase for authentication, and GNews API for real-time news data."
-            logoSrc="/eagle.png"
-            demoUrl="https://eagle-daily-news.vercel.app/"
-            githubUrl="https://github.com/yu-yu-aung/eagle-daily-news.git"
-          />
-
+        <div className="grid grid-cols-1 gap-6 animate-in fade-in slide-in-from-bottom-2 duration-300 mb-10 sm:mb-20 md:mb-30 lg:mb-60">
           <ProjectCard
             title="Novio"
             category="Online Writing Platform"
@@ -97,11 +88,20 @@ const ProjectFilter = () => {
             demoUrl="https://novio-writing-app-mcmb.vercel.app/"
             githubUrl="https://github.com/yu-yu-aung/novio-writing-app.git"
           />
+
+          <ProjectCard
+            title="Eagle's Daily News"
+            category="Daily News Website"
+            description="Eagle’s Daily News is a modern news platform that allows users to read, share, and save daily updated articles. Built with React and Next.js, using Zustand for state management, Flowbite UI for interface components, React Hot Toast for feedback, Supabase for authentication, and GNews API for real-time news data."
+            logoSrc="/eagle.png"
+            demoUrl="https://eagle-daily-news.vercel.app/"
+            githubUrl="https://github.com/yu-yu-aung/eagle-daily-news.git"
+          />
         </div>
       )}
 
       {filter === 'ai' && (
-        <div className="grid grid-cols-1 gap-6 animate-in fade-in slide-in-from-bottom-2 duration-300 mb-10 sm:mb-20 md:mb-30">
+        <div className="grid grid-cols-1 gap-6 animate-in fade-in slide-in-from-bottom-2 duration-300 mb-10 sm:mb-20 md:mb-30 lg:mb-60">
           <ProjectCard
             title="Yolo26 Reverse Engineering"
             category="Exploring Pretrained Model"
@@ -120,7 +120,7 @@ const ProjectFilter = () => {
       )}
 
       {filter === 'uiux' && (
-        <div className="grid grid-cols-1 gap-6 animate-in fade-in slide-in-from-bottom-2 duration-300 mb-10 sm:mb-20 md:mb-30">
+        <div className="grid grid-cols-1 gap-6 animate-in fade-in slide-in-from-bottom-2 duration-300 mb-10 sm:mb-20 md:mb-30 lg:mb-60">
           <ProjectCard
             title="Skillsphere"
             category="Online Learning App"
