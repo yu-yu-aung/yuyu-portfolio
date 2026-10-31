@@ -6,9 +6,61 @@ import { ThemeProvider } from "next-themes";
 import {  PT_Serif, Montserrat } from 'next/font/google';
 
 export const metadata = {
-  title: "Yu Yu's Portfolio",
-  description: "Yu Yu is a software engineer with strong knowledge in AI and UI, UX. This is Yu's portforlio site built with Next.js.",
-  viewport: "width=device-width, initial-scale=1.0",
+  metadataBase: new URL('https://yuyu-aung.vercel.app'), 
+
+  title: {
+    default: 'Yu Yu | Senior UX Designer & Full-Stack Engineer',
+    template: '%s | Yu Yu',
+  },
+  description:
+    'Portfolio of Yu Yu - Full-Stack Software Engineer specializing in Next.js, React, TypeScript, Php, Laravel, FastAPI, and AI integration.',
+  keywords: [
+    'Yu Yu Aung',
+    'Yu Yu',
+    'Myanmar Web Developer',
+    'Full-Stack Engineer',
+    'Next.js Developer',
+    'React Developer',
+    'Laravel Developer', 
+    'Php Developer',
+    'Software Engineer',
+    'AI Engineer',
+    'Freelance Web Developer',
+    'Remote Software Engineer',
+  ],
+  authors: [{ name: 'Yu Yu Aung' }],
+  creator: 'Yu Yu Aung',
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://yuyu-aung.vercel.app', 
+    title: 'Yu Yu | Full-Stack Engineer',
+    description:
+      'Designing & engineering high-performance web applications, modern UI/UX systems, and AI integrations.',
+    siteName: 'Yu Yu Portfolio',
+    images: [
+      {
+        url: '/cover.png', // 1200x630px social preview card
+        width: 1200,
+        height: 630,
+        alt: 'Yu Yu - Portfolio',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Yu Yu | Full-Stack Software Engineer',
+    description:
+      'Designing & engineering high-performance web applications, modern UI/UX systems, and AI integrations.',
+    images: ['/cover.png'],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  verification: {
+    google: 'JTxw9m1sYT6tFjSWyz87WuHaZq7tt1XXtD9boQAMjWk', 
+  },
 };
 
 const ptSerif = PT_Serif({
