@@ -37,7 +37,7 @@ export const ProjectCard = ({
             <h3 className="text-lg font-semibold tracking-tight text-foreground sm:text-xl">
               {title}
             </h3>
-            <span className="inline-block rounded-md px-2.5 py-0.5 text-xs font-medium text-heading bg-accent/80">
+            <span className="hidden sm:inline-block rounded-md px-2.5 py-0.5 text-xs font-medium text-heading bg-accent/80">
               {category}
             </span>
           </div>

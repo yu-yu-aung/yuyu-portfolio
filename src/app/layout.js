@@ -9,7 +9,7 @@ export const metadata = {
   metadataBase: new URL('https://yuyu-aung.vercel.app'), 
 
   title: {
-    default: 'Yu Yu | Senior UX Designer & Full-Stack Engineer',
+    default: 'Yu Yu | Full-Stack Engineer',
     template: '%s | Yu Yu',
   },
   description:
