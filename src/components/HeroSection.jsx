@@ -13,14 +13,14 @@ const HeroSection = () => {
       <section className="grid grid-cols-1 items-center gap-8 sm:gap-12 lg:grid-cols-7 relative mx-auto w-full max-w-7xl px-6 sm:px-10 sm:py-16 lg:px-24 flex items-center mt-8 md:mt-10 lg:mt-12">
 
         <div className="flex justify-center lg:col-span-3 relative rounded-2xl items-center">
-          <img 
+          <img
             src="/yuyu_high_reso.png" 
             alt="Yu Yu portrait"
             className="w-40 md:w-60 lg:w-72 h-auto object-contain rounded-2xl border-border border-2"
           />
         </div>
 
-        <div className="flex flex-col justify-center gap-4 sm:gap-8 lg:col-span-4 items-start">
+        <div className="flex flex-col justify-center gap-4 sm:gap-8 lg:col-span-4 items-center md:items-start lg:items-start">
           <h2 className="hello-text text-foreground">
             {text.split('').map((char, i) => (
               <span key={i} style={{ animationDelay: `${i * 0.15}s` }}>
@@ -29,7 +29,7 @@ const HeroSection = () => {
             ))}
           </h2>
 
-          <div className="flex flex-col gap-4 text-foreground backdrop-blur-md sm:gap-4 mt-2">
+          <div className="flex flex-col items-center md:items-start gap-4 text-foreground backdrop-blur-md sm:gap-4 mt-2">
             <p className="text-2xl font-semibold leading-tight sm:text-4xl">
               I&apos;m{' '}
               <span className="text-3xl font-bold text-brand sm:text-5xl">
@@ -37,7 +37,7 @@ const HeroSection = () => {
               </span>
             </p>
 
-            <p className="text-xl font-medium leading-relaxed sm:text-2xl">
+            <p className="text-xl font-medium leading-relaxed sm:text-2xl text-center md:text-start">
               A full-stack developer who builds practical solutions <br />
               combining full-stack development, AI, and UI/UX <br />
             </p>

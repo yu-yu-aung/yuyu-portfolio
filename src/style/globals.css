@@ -537,9 +537,20 @@
   animation: wave 1.2s ease-in-out infinite;
 }
 
+/* Fallback state for older browsers that don't support scroll-driven animations */
 .fade-up {
-  animation: fadeUp both; 
-  animation-timeline: view(50% auto);
+  opacity: 1; 
+  transform: translateY(0) scale(1);
+}
+
+/* Enhanced cross-browser scroll-driven animation */
+@supports (animation-timeline: view()) {
+  .fade-up {
+    opacity: 0; /* Safe to hide because we know the animation engine will run */
+    animation: fadeUp linear both;
+    animation-timeline: view(80% auto);
+    animation-duration: 1ms; /* Required by some browser engines to activate the timeline */
+  }
 }
 
 @keyframes fadeUp {

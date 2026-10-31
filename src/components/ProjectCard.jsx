@@ -3,6 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { ExternalLink, Github } from 'lucide-react';
+import Image from 'next/image';
 
 
 export const ProjectCard = ({
@@ -20,9 +21,10 @@ export const ProjectCard = ({
       {/* Left Column: Logo */}
       <div className="flex shrink-0 items-center justify-center">
         <div className="relative flex h-16 w-16 items-center justify-center overflow-hidden  p-2 sm:h-20 sm:w-20">
-          <img
+          <Image
             src={logoSrc}
             alt={logoAlt}
+            fill
             className="h-full w-full object-contain transition-transform duration-300 group-hover:scale-105"
           />
         </div>
