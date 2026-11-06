@@ -9,6 +9,7 @@ import Image from 'next/image';
 export const ProjectCard = ({
   title,
   category,
+  status,
   description,
   logoSrc,
   logoAlt = title,
@@ -38,7 +39,7 @@ export const ProjectCard = ({
               {title}
             </h3>
             <span className="hidden sm:inline-block rounded-md px-2.5 py-0.5 text-xs font-medium text-heading bg-accent/80">
-              {category}
+              {status}
             </span>
           </div>
           <p className="text-xs font-medium tracking-wide text-muted-foreground uppercase ">

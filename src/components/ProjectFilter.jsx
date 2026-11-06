@@ -76,8 +76,26 @@ const ProjectFilter = () => {
         {(filter === 'all' || filter === 'software') && (
           <>
             <ProjectCard
+              title="Ace of Data Website"
+              category="Company Presentation Website"
+              status="Client Project"
+              description="Implemented a corporate presentation website for Ace of Data, translating business requirements into a clean, minimalist, and user-friendly digital experience. Developed responsive page layouts, integrated multilingual support (i18n), and applied SEO optimization to improve content accessibility and search engine visibility. Delivered a polished website that communicates the company's services and information clearly, achieving full client satisfaction."
+              logoSrc="/aod.png"
+              demoUrl="https://aceofdata.org/"
+            />
+
+            <ProjectCard
+              title="Athlix Gym SaaS"
+              category="Management System Software"
+              status="In progress"
+              description="Leading a collaborative SaaS development project with two fellow University of the People students, serving as the team lead and full-stack software engineer. Spearheading the development of Athlix, a gym management platform designed to streamline daily gym operations through centralized management workflows. Responsible for backend architecture, database design, API development, and frontend integration, while coordinating technical decisions and collaborating with the team to build a scalable, maintainable software product."
+              logoSrc="/athlix.png"
+            />
+
+            <ProjectCard
               title="Novio"
               category="Online Writing Platform"
+              status="Completed"
               description="Novio is an online writing platform allowing users to write, publish, share stories, read, like, comment, and follow creators. Users can organize stories into custom bookshelves and manage visibility. Features a robust Supabase backend with 14 tables and Sonner notifications."
               logoSrc="/novio.png"
               demoUrl="https://novio-writing-app-mcmb.vercel.app/"
@@ -87,6 +105,7 @@ const ProjectFilter = () => {
             <ProjectCard
               title="Eagle's Daily News"
               category="Daily News Website"
+              status="Completed"
               description="Eagle’s Daily News is a modern news platform that allows users to read, share, and save daily updated articles. Built with React and Next.js, using Zustand for state management, Flowbite UI for interface components, React Hot Toast for feedback, Supabase for authentication, and GNews API for real-time news data."
               logoSrc="/eagle.png"
               demoUrl="https://eagle-daily-news.vercel.app/"
@@ -100,6 +119,7 @@ const ProjectFilter = () => {
             <ProjectCard
               title="Yolo26 Reverse Engineering"
               category="Exploring Pretrained Model"
+              status="R&D"
               description="An independent research project focused on understanding the internal architecture of YOLO26n. Using PyTorch and Ultralytics, I explored the model's computational graph, layer configurations, module connections, learnable parameters, and bias initialization. I examined components such as C3k2 and C2PSA, investigated how feature extraction and processing flow through the network, and analyzed model configuration, tensor dimensions, and inference behavior. The project focuses on architectural understanding and hands-on experimentation rather than production deployment."
               logoSrc="/yolo.png"
               githubUrl="https://github.com/yu-yu-aung/yolo26n_exploration.git"
@@ -108,6 +128,7 @@ const ProjectFilter = () => {
             <ProjectCard
               title="Attendance AI with Face Recognition"
               category="AI Integration for System Software"
+              status="In progress"
               description="A facial recognition attendance prototype designed to integrate with existing school management systems. Built with InsightFace and FastAPI, it exposes APIs for face enrollment and recognition, allowing external applications to process recognition results and manage attendance records. Currently under development and not yet production-ready."
               logoSrc="/face_detect.png"
             />
@@ -118,6 +139,7 @@ const ProjectFilter = () => {
           <ProjectCard
             title="Skillsphere"
             category="Online Learning App"
+            status="Case Study"
             description="Skillsphere is a UI/UX case study for an online learning app. It covers UX research, user personas, design system creation, and wireframing to high-fidelity Figma prototypes."
             logoSrc="/skillsphere.png"
             customLinks={[

@@ -49,29 +49,29 @@ const experiences = [
       "Reinforecement Learning"
     ]
   },
-  {
-    company: "Karmine Labs",
-    role: "Full-stack Developer (Part-time)",
-    period: "Part-time",
-    description:
-      "Develop practical software solutions with a focus on business workflows, maintainable web applications, and AI integration. My current focus includes a gym management SaaS platform designed to simplify day-to-day gym operations and other software solutions.",
-    responsibilities: [
-      "Build system software features and business workflows using PHP and Laravel.",
-      "Design and implement database-backed functionality for managing application data.",
-      "Explore opportunities to integrate AI capabilities into practical business software."
-    ],
-    stack: [
-      "PHP",
-      "Laravel",
-      "PostgreSQL",
-      "JavaScript",
-      "TypeScript",
-      "React",
-      "Next.js",
-      "REST APIs",
-      "Git"
-    ]
-  },
+  // {
+  //   company: "Karmine Labs",
+  //   role: "Full-stack Developer (Part-time)",
+  //   period: "Part-time",
+  //   description:
+  //     "Develop practical software solutions with a focus on business workflows, maintainable web applications, and AI integration. My current focus includes a gym management SaaS platform designed to simplify day-to-day gym operations and other software solutions.",
+  //   responsibilities: [
+  //     "Build system software features and business workflows using PHP and Laravel.",
+  //     "Design and implement database-backed functionality for managing application data.",
+  //     "Explore opportunities to integrate AI capabilities into practical business software."
+  //   ],
+  //   stack: [
+  //     "PHP",
+  //     "Laravel",
+  //     "PostgreSQL",
+  //     "JavaScript",
+  //     "TypeScript",
+  //     "React",
+  //     "Next.js",
+  //     "REST APIs",
+  //     "Git"
+  //   ]
+  // },
   {
     company: "MMS IT",
     role: "Frontend Engineer (Remote Internship)",

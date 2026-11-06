@@ -25,7 +25,7 @@ const contactLinks = [
   {
     title: 'Resume',
     value: 'Download PDF',
-    href: '/simple_resume.pdf',
+    href: '/yuyu_cv.pdf',
     icon: DownloadIcon,
     isDownload: true,
   },
